@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    background-color: rgb(156,64,65);
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7,0,0);
+    
+    
+}
+.logo{
+    width: 100px;
+}
+
+.leftsection{
+width: 200px;
+
+}
+.middilesection{
+    flex: 1;
+    max-width: 500px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-family: 'Montserrat', sans-serif;
+
+}
+.rightsection{
+    display: flex;
+    justify-content: space-evenly;
+ width: 150px; 
+}
+
+
+.image1{
+   
+    width: 100%;
+}
+.middileSections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.middileImage{
+ width: 400px;
+ 
+ padding-left: 60px;
+}
+
+.middile-Section1{
+    width:50%;
+    height: 400px;
+    
+  
+}
+.middile-Section2{
+    
+    width: 500px;
+    height: 500px;
+    padding-right: 70px;
+    
+   
+}
+#about-us{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 0;
+}
+#middFooter-heading{
+    font-size: 43px;
+    margin-top: 0;
+}
+
+.line{
+    border-top: solid gray 0.3px;
+}
+.middilefooter{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content: space-between;
+ align-items: center;
+ padding-left: 100px;
+ height: 100px;
+ 
+ 
+}
+.Explore-btn{
+    background-color: transparent;
+    color: #bc9e33;
+    border-color: #bc9e33;
+    border: solid;
+    height: 40px;
+    width: 130px;
+    letter-spacing: .5px;
+
+}
+.Explore-btn:hover{
+    cursor: pointer;
+    background-color: #bc9e33;
+    color: rgb(8, 8, 8);
+    border-color: #bc9e33;
+}
+.Contact-us{
+    margin-right: 200px;
+    background-color: transparent;
+    color: #bc9e33;
+    border-color:#bc9e33;
+    border: solid;
+    height: 40px;
+    width: 130px;
+    letter-spacing: .5px;
+}
+.Contact-us:hover{
+    cursor: pointer;
+    background-color: #bc9e33;
+    color: rgb(8, 8, 8);
+    border-color: #bc9e33;
+    transition: 0.15;
+}
+
+
+
+.footers{
+ background-color: rgb(28,28,28);
+}
+.footerText3,.midilefooterText{
+    color:#bc9e33;
+   list-style: none;
+   margin: 10px;
+   
+}
+.footerText1{
+    color:#bc9e33;
+    font-weight: 400;
+}
+.footerText2{
+    color:#bc9e33;
+    .footerText1{
+    color:#bc9e33;
+    font-weight: 400;
+}
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+.lastMidileFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 200px;
+
+}
+
+
