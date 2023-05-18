@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    width: 100%;
     background-color: rgb(156,64,65);
     font-family: 'Montserrat', sans-serif;
     color: #fff;
@@ -26,11 +27,11 @@ width: 200px;
 
 }
 .middilesection{
-    flex: 1;
-    max-width: 500px;
+  
 display: flex;
+width: 500px;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-evenly;
 font-family: 'Montserrat', sans-serif;
 
 }
@@ -88,13 +89,17 @@ font-family: 'Montserrat', sans-serif;
 .middilefooter{
  display: flex;
  flex-direction: row;
- width: 100%;
  justify-content: space-between;
  align-items: center;
  padding-left: 100px;
- height: 100px;
+ height: 200px;
  
  
+}
+line{
+    
+
+    border-color: rgb(188, 22, 22);
 }
 .Explore-btn{
     background-color: transparent;
@@ -134,6 +139,7 @@ font-family: 'Montserrat', sans-serif;
 
 .footers{
  background-color: rgb(28,28,28);
+ width: 100%;
 }
 .footerText3,.midilefooterText{
     color:#bc9e33;
