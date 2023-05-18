@@ -34,14 +34,22 @@ width: 200px;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav:hover{
+    transition: 0.15s;
+    color: rgb(103, 99, 99);
 }
 .rightsection{
     display: flex;
     justify-content: space-evenly;
  width: 200px; 
 }
-
-
+#logos:hover{
+    transition: 0.15s;
+    color: rgb(103, 99, 99);
+}
 .image1{
    
     width: 100%;
@@ -127,7 +135,7 @@ width: 200px;
     background-color: #bc9e33;
     color: rgb(8, 8, 8);
     border-color: #bc9e33;
-    transition: 0.15;
+    transition: 0.10;
 }
 
 
@@ -138,20 +146,17 @@ width: 200px;
 }
 .footerText3,.midilefooterText{
     color:#bc9e33;
-   list-style: none;
-   margin: 10px;
+    list-style: none;
+    margin: 10px;
    
 }
 .footerText1{
-    color:#bc9e33;
+    color:#7c682a;;
     font-weight: 400;
 }
 .footerText2{
     color:#bc9e33;
-    .footerText1{
-    color:#bc9e33;
-    font-weight: 400;
-}
+
 }
 
 
