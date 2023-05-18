@@ -27,13 +27,13 @@ width: 200px;
 
 }
 .middilesection{
-  
-display: flex;
-width: 500px;
-flex-direction: row;
-justify-content: space-evenly;
-font-family: 'Montserrat', sans-serif;
-
+    width: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+.middilesection ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 .rightsection{
     display: flex;
@@ -84,7 +84,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .line{
-    border-top: solid gray 0.3px;
+    border-bottom: 0.1px solid #363636;
 }
 .middilefooter{
  display: flex;
@@ -95,11 +95,6 @@ font-family: 'Montserrat', sans-serif;
  height: 200px;
  
  
-}
-line{
-    
-
-    border-color: rgb(188, 22, 22);
 }
 .Explore-btn{
     background-color: transparent;
